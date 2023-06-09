@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT bigger code panels",
+  "version": "0.1.0",
+  "description": "Makes the code panels bigger in ChatGPT",
+  "permissions": [
+    "tabs", 
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
